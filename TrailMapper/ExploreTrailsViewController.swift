@@ -158,6 +158,8 @@ class ExploreTrailsViewController: UIViewController {
 
 }
 
+// MARK: - MKMapViewDelegate
+
 extension ExploreTrailsViewController: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, didChange mode: MKUserTrackingMode, animated: Bool) {
@@ -213,6 +215,8 @@ extension ExploreTrailsViewController: MKMapViewDelegate {
     }
     
 }
+
+// MARK: - CLLocationManagerDelegate
 
 extension ExploreTrailsViewController: CLLocationManagerDelegate {
     
@@ -271,6 +275,8 @@ extension ExploreTrailsViewController: CLLocationManagerDelegate {
     
 }
 
+// MARK: - UITableViewDelegate
+
 extension ExploreTrailsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -279,6 +285,8 @@ extension ExploreTrailsViewController: UITableViewDelegate {
     }
     
 }
+
+// MARK: - UITableViewDataSource
 
 extension ExploreTrailsViewController: UITableViewDataSource {
     
@@ -299,6 +307,8 @@ extension ExploreTrailsViewController: UITableViewDataSource {
     }
     
 }
+
+// MARK: - UISearchResultsUpdating
 
 extension ExploreTrailsViewController: UISearchResultsUpdating {
     

@@ -87,6 +87,8 @@ class Trail: NSObject {
     
 }
 
+// MARK: - MKAnnotation
+
 extension Trail: MKAnnotation {
     
     var coordinate: CLLocationCoordinate2D {
