@@ -108,12 +108,12 @@
 			children = (
 				7D6600C71D956D3F00C28450 /* AppDelegate.swift */,
 				7D6600FD1D95745700C28450 /* Models */,
+				7D9400FD1D95B6BD007F3C25 /* Views */,
 				7D6600FE1D95745F00C28450 /* View Controllers */,
 				7D6600CD1D956D3F00C28450 /* Main.storyboard */,
 				7D6600D01D956D3F00C28450 /* Assets.xcassets */,
 				7D6600D21D956D3F00C28450 /* LaunchScreen.storyboard */,
 				7D6600D51D956D3F00C28450 /* Info.plist */,
-				7DB448281D95A9AD00F1F095 /* TrailMapTableViewCell.swift */,
 			);
 			path = TrailMapper;
 			sourceTree = "<group>";
@@ -152,6 +152,14 @@
 				7DB4482A1D95B06900F1F095 /* TrailsTableViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7D9400FD1D95B6BD007F3C25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DB448281D95A9AD00F1F095 /* TrailMapTableViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
