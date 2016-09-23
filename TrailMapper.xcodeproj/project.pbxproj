@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7D6600C81D956D3F00C28450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6600C71D956D3F00C28450 /* AppDelegate.swift */; };
-		7D6600CA1D956D3F00C28450 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6600C91D956D3F00C28450 /* FirstViewController.swift */; };
-		7D6600CC1D956D3F00C28450 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6600CB1D956D3F00C28450 /* SecondViewController.swift */; };
 		7D6600CF1D956D3F00C28450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6600CD1D956D3F00C28450 /* Main.storyboard */; };
 		7D6600D11D956D3F00C28450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6600D01D956D3F00C28450 /* Assets.xcassets */; };
 		7D6600D41D956D3F00C28450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6600D21D956D3F00C28450 /* LaunchScreen.storyboard */; };
 		7D6600DF1D956D3F00C28450 /* TrailMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6600DE1D956D3F00C28450 /* TrailMapperTests.swift */; };
 		7D6600EA1D956D3F00C28450 /* TrailMapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6600E91D956D3F00C28450 /* TrailMapperUITests.swift */; };
+		7D6600F81D95742A00C28450 /* ExploreTrailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6600F71D95742A00C28450 /* ExploreTrailsViewController.swift */; };
+		7D6600FA1D95743C00C28450 /* TrailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6600F91D95743C00C28450 /* TrailTableViewController.swift */; };
+		7D6600FC1D95745100C28450 /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6600FB1D95745100C28450 /* Trail.swift */; };
+		7D6601011D95816F00C28450 /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6600FB1D95745100C28450 /* Trail.swift */; };
+		7DB448291D95A9AD00F1F095 /* TrailMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB448281D95A9AD00F1F095 /* TrailMapTableViewCell.swift */; };
+		7DB4482B1D95B06900F1F095 /* TrailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB4482A1D95B06900F1F095 /* TrailsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,6 @@
 /* Begin PBXFileReference section */
 		7D6600C41D956D3F00C28450 /* TrailMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6600C71D956D3F00C28450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D6600C91D956D3F00C28450 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7D6600CB1D956D3F00C28450 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7D6600CE1D956D3F00C28450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D6600D01D956D3F00C28450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D6600D31D956D3F00C28450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,11 @@
 		7D6600E51D956D3F00C28450 /* TrailMapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailMapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6600E91D956D3F00C28450 /* TrailMapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailMapperUITests.swift; sourceTree = "<group>"; };
 		7D6600EB1D956D3F00C28450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6600F71D95742A00C28450 /* ExploreTrailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreTrailsViewController.swift; sourceTree = "<group>"; };
+		7D6600F91D95743C00C28450 /* TrailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailTableViewController.swift; sourceTree = "<group>"; };
+		7D6600FB1D95745100C28450 /* Trail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
+		7DB448281D95A9AD00F1F095 /* TrailMapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailMapTableViewCell.swift; sourceTree = "<group>"; };
+		7DB4482A1D95B06900F1F095 /* TrailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				7D6600C71D956D3F00C28450 /* AppDelegate.swift */,
-				7D6600C91D956D3F00C28450 /* FirstViewController.swift */,
-				7D6600CB1D956D3F00C28450 /* SecondViewController.swift */,
+				7D6600FD1D95745700C28450 /* Models */,
+				7D6600FE1D95745F00C28450 /* View Controllers */,
 				7D6600CD1D956D3F00C28450 /* Main.storyboard */,
 				7D6600D01D956D3F00C28450 /* Assets.xcassets */,
 				7D6600D21D956D3F00C28450 /* LaunchScreen.storyboard */,
 				7D6600D51D956D3F00C28450 /* Info.plist */,
+				7DB448281D95A9AD00F1F095 /* TrailMapTableViewCell.swift */,
 			);
 			path = TrailMapper;
 			sourceTree = "<group>";
@@ -126,6 +134,24 @@
 				7D6600EB1D956D3F00C28450 /* Info.plist */,
 			);
 			path = TrailMapperUITests;
+			sourceTree = "<group>";
+		};
+		7D6600FD1D95745700C28450 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D6600FB1D95745100C28450 /* Trail.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7D6600FE1D95745F00C28450 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D6600F71D95742A00C28450 /* ExploreTrailsViewController.swift */,
+				7D6600F91D95743C00C28450 /* TrailTableViewController.swift */,
+				7DB4482A1D95B06900F1F095 /* TrailsTableViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D6600CC1D956D3F00C28450 /* SecondViewController.swift in Sources */,
 				7D6600C81D956D3F00C28450 /* AppDelegate.swift in Sources */,
-				7D6600CA1D956D3F00C28450 /* FirstViewController.swift in Sources */,
+				7D6600FA1D95743C00C28450 /* TrailTableViewController.swift in Sources */,
+				7DB448291D95A9AD00F1F095 /* TrailMapTableViewCell.swift in Sources */,
+				7D6600FC1D95745100C28450 /* Trail.swift in Sources */,
+				7DB4482B1D95B06900F1F095 /* TrailsTableViewController.swift in Sources */,
+				7D6600F81D95742A00C28450 /* ExploreTrailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6601011D95816F00C28450 /* Trail.swift in Sources */,
 				7D6600DF1D956D3F00C28450 /* TrailMapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +548,7 @@
 				7D6600F01D956D3F00C28450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D6600F11D956D3F00C28450 /* Build configuration list for PBXNativeTarget "TrailMapperTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +557,7 @@
 				7D6600F31D956D3F00C28450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D6600F41D956D3F00C28450 /* Build configuration list for PBXNativeTarget "TrailMapperUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +566,7 @@
 				7D6600F61D956D3F00C28450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

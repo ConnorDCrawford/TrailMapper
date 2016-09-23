@@ -33,4 +33,8 @@ class TrailMapperTests: XCTestCase {
         }
     }
     
+    func testTrailRetrieval() {
+        
+    }
+    
 }
